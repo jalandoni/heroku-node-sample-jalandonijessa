@@ -11,7 +11,8 @@
     "url": "git+https://github.com/jalandoni/heroku-node-sample-jalandonijessa.git"
   },
   "keywords": [
-    "sample"
+    "node",
+    "heroku"
   ],
   "author": "jessa",
   "license": "ISC",
@@ -22,6 +23,7 @@
     "node": "10.16"
 },
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "socket.io": "^1.7.4"
   }
 }

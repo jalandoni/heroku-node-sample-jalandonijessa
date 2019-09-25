@@ -18,9 +18,9 @@
   "bugs": {
     "url": "https://github.com/jalandoni/heroku-node-sample-jalandonijessa/issues"
   },
-  "homepage": "https://github.com/jalandoni/heroku-node-sample-jalandonijessa#readme","engines": {"node":"10.15"
-    
-  },
+  "homepage": "https://github.com/jalandoni/heroku-node-sample-jalandonijessa#readme","engines": {
+    "node": "10.16"
+},
   "dependencies": {
     "express": "^4.17.1"
   }

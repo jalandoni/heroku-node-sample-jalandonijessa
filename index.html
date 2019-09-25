@@ -15,8 +15,8 @@
 </head>
 <body>
   <center>
-  <div style="background-color: aqua; ">
-  <h1 style="background-color:skyblue; padding-top: 50px">We chat</h1>
+  <div>
+  <b><h1 style="background-color:skyblue; padding-top: 50px; padding-bottom:20px; font-size: 50px;">We chat</h1></b>
 </div></center>
   <!-- Show Active Users -->
   <div class="active">
@@ -36,19 +36,20 @@
 <!-- Username input -->
 <br>
 <br>
-<div class="card"></div>
 <div class="col-md-4"></div>
-      <div class="col-md-5 ">
+      <div class="col-md-4 ">
+          <div class="card inputUser">
 <div class="username">
     <div class="modal-body text-center mb-1">
 <div>
     <input type="text" id="form29" value="" class="form-control form-control-sm validate ml-0">
-    <label for="form29" class="ml-0">Enter username</label>
+    <label for="form29" class="ml-0" id="user">Enter username</label>
   </div>
 
   <div class="text-center mt-4">
     <input type="button" value="Connect" id="submit-btn" class="btn btn-success mt-1" data-dismiss="modal">
     <i class="fas fa-sign-in ml-1"></i>
+    </div>
   </div>
 </div>
 </div>

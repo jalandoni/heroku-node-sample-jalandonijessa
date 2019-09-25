@@ -8,6 +8,28 @@ body,html
   line-height:30px;
   
 }
+#user{
+  font-family: 'Lucida Sans';
+  font-size: 25px;
+  
+}
+
+.form-control{
+font-size:20px;
+text-align: center;
+
+}
+
+
+#submit-btn {
+  width: 100px;
+  padding: 10px;
+  text-align: center;
+  font-size: 15px;
+}
+
+
+
 #typing{
   margin-left:-300;
   margin-right:5px;
@@ -110,11 +132,7 @@ textarea:focus
     transition: all 1.5s;
   background-color:#fff;
 }
-.Area .note
-{
-  color:#9F6905;
-  font-size:10px;
-}
+
 
 
 .Area input[type=button]
@@ -137,9 +155,10 @@ br
   height:20px;
 }
 #send-btn {
-  width: 10%;
+  width: 15%;
   padding: 10px;
   text-align: center;
+  font-size: 15px;
 }
 
 #typing-area {
@@ -150,6 +169,5 @@ br
   width: 100%;
   font-family: verdana;
   font-size: 18px;
-
 }
 

@@ -5,7 +5,6 @@ $(document).ready (function () {
 
 
   function contentShow(){
-
     $(".content").show();
     $(".active").show();
   }
@@ -20,11 +19,7 @@ $(document).ready (function () {
 
     })
 
-    $('#send-btn').click (function () {
-      if($('#form29').val() === ""){
-        alert('You Are Not Registered!');
-      }
-    })
+
 
     $('#disconnect-btn').click (function () {
       socket.emit('inactive', $('#form29').val());
@@ -92,7 +87,5 @@ $(document).ready (function () {
               $('#active').val("Active Users ("+active_users+")");
               $('.card-body').append('<p id='+msg+' class="text"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoghIkegWjq2JwAI57ES7XoQycJxWE8pgeTeddi8fbYZqo5hdpLQ" style="width: 20px">   '+ msg +'<button id="active-btn" class="button5 btn btn-info btn-rounded R"></button></p>');
           })
-          socket.on('inactive', function (msg) {
-            $('.container').append("<div class='Area'><div class='text L textL'><img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoghIkegWjq2JwAI57ES7XoQycJxWE8pgeTeddi8fbYZqo5hdpLQ' style='width: 20px;border-radius: 10px;'>   "+msg+" has disconnected.</div></div>");
-          })
+
       });
